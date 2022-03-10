@@ -1,0 +1,121 @@
+
+.h1  
+{
+    color: rgb(39, 215, 228);
+    font-size: 2em;
+    padding: 1cm;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+
+body
+{
+    background-image: url("img4.jpg");
+    color: rgb(242, 244, 247);
+    display: flexbox;
+    border-style: calc(5px);
+    bottom: unset;
+
+}
+.p1
+{
+    color :rgb(122, 243, 203);
+}
+.r1
+{
+    color :rgb(122, 243, 203);
+}
+
+.r2
+{
+    color :rgb(122, 243, 203);
+}
+.ding1
+{
+    color :rgb(126, 212, 252);
+}
+.ding2
+{
+    color :rgb(126, 212, 252);
+}
+.ding3
+{
+    color :rgb(125, 210, 250);
+}
+.r3
+{
+    color :rgb(122, 224, 199);
+}
+.metadata
+{
+    color :rgb(125, 210, 250);
+}
+.ding4
+{
+    color :rgb(125, 210, 250);
+}
+.ding5
+{
+    color :rgb(125, 210, 250);
+}
+.nw
+{
+    color: aqua;
+}
+.header
+{
+    
+    text-align: right;
+    
+}
+.home
+{
+    background :transparent;
+    color: rgb(255, 255, 255);
+    
+    outline-style:inset;
+    outline-width: 2px;
+    outline-color: #8ed5ff;
+    
+    
+}
+.hlp
+{
+    background :transparent;
+    color: rgb(255, 255, 255);
+    outline-style: inset;
+    outline-width: 2px;
+    
+    outline-color: #8ed5ff;
+    
+}
+.abouts
+{
+    background :transparent;
+    color: rgb(255, 255, 255);
+    outline-style: inset;
+    outline-width: 2px;
+    
+    outline-color: #8ed5ff;
+}
+    
+.ovr
+{
+    background :transparent;
+    color: rgb(255, 255, 255);
+    outline-style: inset;
+    outline-width: 2px;
+    
+    outline-color: #8ed5ff;
+    
+}
+.foot
+{
+    text-align: center;
+    color :black;
+    background-color: rgb(152, 255, 255);
+    word-spacing: 8px;
+    background-size: 5px;
+}
