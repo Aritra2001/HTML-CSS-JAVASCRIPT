@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(9, 9, 9, 0.597)),url(Frame\ 1\ \(1\).jpg);
+    align-items: center;
+    
+
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding :35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    
+    width: 140px;
+    cursor: pointer;
+}
+.navbar ul li
+{
+
+    list font-style: none;
+    display :inline-block;
+    margin: 0 20px;
+    position :relative;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li ::after
+{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #61f2ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+.navbar ul li :hover::after
+{
+    width: 100%;
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1
+{
+    font-size: 50px;
+    margin-top: 80px;
+}
+.content p
+{
+    margin:20px auto;
+    font-weight: bold;
+    line-height: 25px;
+}
+button
+{
+    width: 220px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #61f2ff;
+    background: transparent;
+    color:white;
+    cursor: pointer;
+    position:relative;
+    overflow:hidden;
+}
+span
+{
+    background:#61f2ff;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left:0;
+    bottom:0;
+    z-index: -1;
+    transition: 0.2s;
+}
+button:hover span
+{
+    
+    width: 100%;
+}
+button:hover 
+{
+    border: none;
+}
+.pre_chain
+{
+    
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    
+
+}
+.pre_chain p
+{
+    margin:20px auto;
+    font-weight: bold;
+    line-height: 25px;
+}
+.pre_chain img
+{
+    margin:20px auto;
+    
+}
+.pre_chain a::after
+{
+    content: "";
+    transition: 0.2s;
+    opacity: 100%;
+    position: absolute;
+    height: max-content;
+    width: 0;
+    bottom: -10px;
+    
+}
+.pre_chain a:hover::after
+{
+    width: 100%;
+}
+.pre_chain a
+{
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: sans-serif;
+}
