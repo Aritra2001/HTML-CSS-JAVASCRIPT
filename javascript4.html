@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - 4</title>
+    <script type="text/javascript">
+        function book(title, author)
+        {
+            this.title = title;
+            this.author = author;
+        }
+    </script>
+</head>
+<body>
+    <!-- <script type="text/javascript">
+        var book = new Object();
+        book.subject = "React";
+        book.author = "NetNinjaReact";
+    </script>
+    <script type="text/javascript">
+        document.write("The subject of the Book is : " + book.subject + "<br>");
+        document.write("The author of the Book is : " + book.author + "<br>");
+    </script> -->
+    <script type="text/javascript">
+        var mybook = new book("Turtles all the way down", "John Green");
+        document.write("The Title of the Book is : " + mybook.title + "<br>");
+        document.write("The author of the Book is : " + mybook.author + "<br>");
+    </script>
+</body>
+</html>

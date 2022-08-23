@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT-3</title>
+    <script>
+        function checkpass()
+        {
+            var pwd = document.getElementById('pass').value;
+
+            var len = pwd.length;
+            if(len < 6 )
+            {
+                document.getElementById('msg').style.color = '#ff0000';
+                document.getElementById('msg').innerHTML = 'Password is Short';
+            }
+            else if(len >=6 && len <= 8)
+            {
+                document.getElementById('msg').style.color = '#ffbf00';
+                document.getElementById('msg').innerHTML = 'Password is Medium';
+            }
+            else
+            {
+                document.getElementById('msg').style.color = '#00ff40';
+                document.getElementById('msg').innerHTML = 'Password is Strong';
+            }
+       }
+    </script>
+</head>
+<body>
+    <form>
+        Enter the password <input type="password" id="pass" onkeyup="checkpass()">
+        <label for="msg" id="msg"></label>
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <h2>The creation and use of objects</h2>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <script>
+        const car = {type:"fiate", model_no:"500", color:"White"};
+        car.owner = "Johnson";
+        document.getElementById("demo").innerHTML=("The owner of the car is :"+car.color)
+        document.getElementById("demo2").innerHTML=typeof(car);
+    </script>
+</body>
+</html>
